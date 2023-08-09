@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>ADECGINAN Pascal - Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Chargement...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">M. ADECHINAN</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">M. ADECHINAN</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="index.html" class="nav-item nav-link">Acceuil</a>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+     <!-- Header Start -->
+     <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-12 py-6 my-6 align-items-center pb-0 pt-lg-0">
+                    <h1 class="display-3 m-5">Mes Projets</h1>
+                    <h2 class="typed-text-output d-inline m-5"></h2>
+                    <div class="typed-text d-none m-5">Développeur Web, Développeur Back-end, Développeur PHP/Larevel, Développeur Node.js, Analyste des données, Programmeur Python/IA</div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+
+    <!-- Projects zone -->
+    <div class="container">
+        <div class="row m-5 align-items-center">
+            <div class="col-lg-11 mb-5 wow fadeInUp" id="first" data-wow-delay="0.1s">
+                <h4 class="display-5 mb-5">1- Plateforme de Gestion de stocks</h4>
+                <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/p1a.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/p1b.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/p1c.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/p1d.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                <p class="mt-5">
+                    La plateforme de gestion de stocks est une applications web permettant de gérer un stock commercial
+                    grâce à ces fonctionnalités :
+                </p>
+                <ul>
+                    <li>Ajouter, éditer et supprimer un stock</li>
+                    <li>Visualiser les stocks avec leurs statistiques</li>
+                    <li>Ajouter, éditer et supprimer un fournisseur de produit</li>
+                    <li>Ajouter, éditer et supprimer une vente</li>
+                    <li>Visualiser les ventes</li>
+                    <li>Ajouter, éditer et supprimer un client</li>
+                    <li>Ajouter, éditer et supprimer une entrée et sortie</li>
+                    <li>Visualiser les opérations journalière, hebdomadaire et mensuel</li>
+                    <li>Un système d'authentification adminstrateur</li>
+                </ul>
+                <p>
+                    L'application est dotée d'un interface utilisateur très simple, avec une flexibilité
+                    adaptative sur tous les écrans. La plateforme est actuellement sur marché de vente.
+                </p>
+            </div>
+
+            <div class="col-lg-11 my-5 wow fadeInUp" id="second" data-wow-delay="0.1s">
+                <h4 class="display-5 mb-5">2- Application e-commerce</h4>
+                <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/p2a.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/p2b.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/p2c.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/p2d.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/p2e.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                <p class="mt-5">
+                    Une application e-commerce réalisée dans le cadre d'une commande d'un client. Cette application
+                    a été programmée en PHP native avec comme base de données, MySQL. Elle est dotée d'un système d'administration
+                    très facile pour l'administarteur. Les visiteurs de la boutique en ligne peuvent créer un compte abonné et ainsi
+                    avoir un tableau de bord recapitulatif pour tous leurs opérations dans la boutique en ligne. Les visiteurs peuvent
+                    ajouter des produits au panier et effectuer des achats à partir d'un code promo (coupon) ou non. Au niveau du panneau 
+                    d'administration, l'administarteur peut :
+                </p>
+                <ul>
+                    <li>Ajouter, éditer et supprimer un produit</li>
+                    <li>Ajouter éditer et supprimer un catégorie, une marque et un coupon</li>
+                    <li>Visualiser les abonnés et les éditer ou supprimer</li>
+                    <li>Visualiser les commandes, éditer et supprimer les commandes</li>
+                    <li>Visualiser les ventes</li>
+                    <li>Ajouter, éditer et supprimer des articles</li>
+                    <li>Visualiser les statistiques Générales de la boutique</li>
+                </ul>
+                
+            </div>
+
+            <div class="col-lg-11 my-5 wow fadeInUp" id="second" data-wow-delay="0.1s">
+                <h4 class="display-5 mb-5">3- WordPress : Site vitrine Noga Center</h4>
+                <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/p3a.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/p3b.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/p3c.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/p3d.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                
+                <p class="mt-5">
+                    Noga Center est un centre spécialisé dans la réalisation des packagings, 
+                    logos affiche publicitaire; impression sur t-shirt, Lacoste, casquettes et pagnes. 
+                    Il intervient aussi dans l'impression sur les supports métalliques et en bois. Ce site 
+                    WordPress a été réalisé dans le cadre de la présence numérique de ce centre sur internet.
+                    Au cour de ce projet j'ai effectué des opérations comme :
+                </p>
+                <ul>
+                    <li>Intégration d'un thème WordPress</li>
+                    <li>Personnalisation d'un thème WordPress</li>
+                    <li>Intégration des extensions WordPress</li>
+                    <li>Personnalisation de page avec Elementor</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Map Start -->
+<div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-xxl pt-5 px-0">
+        <div class="bg-dark">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+            frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+    </div>
+</div>
+<!-- Map End -->
+
+
+<!-- Copyright Start -->
+<div class="container-fluid bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom text-secondary" href="#">Your Site Name</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com">HTML Codex</a>
+                    <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/typed/typed.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
